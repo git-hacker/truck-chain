@@ -19,7 +19,7 @@ from keras.layers import Dense
 from keras.layers import Merge
 
 seed = 42
-numpy.random.seed(seed)
+#numpy.random.seed(seed)
 
 dataframe = pandas.read_csv("data4thresholdCalc1.csv", header=None)
 dataset = dataframe.values
